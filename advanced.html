@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokročilé vyhledávání Google</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="top-links">
+        <a href="index.html">Hlavní vyhledávání</a>
+        <a href="images.html">Vyhledávání obrázků</a>
+    </div>
+    <div class="search-container">
+        <form action="https://www.google.com/search" method="get">
+            <label for="all-words">Najít stránky obsahující… „všechna tato slova:”</label>
+            <input type="text" name="as_q" id="all-words" class="advanced-bar"><br>
+
+            <label for="exact-phrase">Najít stránky obsahující… „tuto přesnou frázi:”</label>
+            <input type="text" name="as_epq" id="exact-phrase" class="advanced-bar"><br>
+
+            <label for="any-words">Najít stránky obsahující… „kterékoli z těchto slov:”</label>
+            <input type="text" name="as_oq" id="any-words" class="advanced-bar"><br>
+
+            <label for="none-words">Najít stránky obsahující… „žádné z těchto slov:”</label>
+            <input type="text" name="as_eq" id="none-words" class="advanced-bar"><br>
+
+            <input type="submit" value="Pokročilé vyhledávání" class="advanced-btn">
+        </form>
+    </div>
+</body>
+</html>
